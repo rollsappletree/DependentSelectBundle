@@ -44,7 +44,7 @@ or if using Symfony > 4 just create a new file in `packages/dependent_selet.yaml
 ```
 twig:
   form_themes:
-    - DependentSelectBundle::fields.html.twig
+    - '@DependentSelect/fields.html.twig'
 ```
 
 
